@@ -1,9 +1,6 @@
 name: Release Workflow
 #asd
-on:
-  release:
-    types:
-      - created
+on: workflow_dispatch
 
 concurrency:
   group: release_workflow
